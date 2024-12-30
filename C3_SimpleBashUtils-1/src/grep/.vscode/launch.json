@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [
+        "-v",
+        "He",
+        "test.txt"
+      ],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/Michael/21/C3_SimpleBashUtils-1/src/grep",
+      "program": "/home/Michael/21/C3_SimpleBashUtils-1/src/grep/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
